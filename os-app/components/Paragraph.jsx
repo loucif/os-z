@@ -1,7 +1,7 @@
-import { ParagraphContainer } from './Paragraph.styles';
+import { ParagraphContainer } from "./Paragraph.styles";
 
 const Paragraph = ({ margin, children }) => {
-    return <ParagraphContainer margin={margin}>{children}</ParagraphContainer>;
+  return <ParagraphContainer margin={margin}>{children}</ParagraphContainer>;
 };
 
 export default Paragraph;
