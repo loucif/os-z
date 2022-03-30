@@ -1,5 +1,4 @@
 import styled from "styled-components";
-
 export const DesktopContainer = styled.main`
   position: absolute;
   top: 0;

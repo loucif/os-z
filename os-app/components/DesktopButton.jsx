@@ -2,9 +2,9 @@ import Paragraph from "./Paragraph";
 import Image from "next/image";
 import { ButtonContainer } from "./DesktopButton.styles";
 
-const DesktopButton = ({ text, iconSize, iconSrc, ...rest }) => {
+const DesktopButton = ({ variant, text, iconSize, iconSrc, ...rest }) => {
   return (
-    <ButtonContainer {...rest}>
+    <ButtonContainer variant={variant} {...rest}>
       <Image
         src={iconSrc}
         alt={text}
@@ -13,12 +13,15 @@ const DesktopButton = ({ text, iconSize, iconSrc, ...rest }) => {
         objectFit={"contain"}
         quality={100}
       />
-      <figure>
-        <figcaption>
-          <Paragraph margin={"0rem"}>{text}</Paragraph>
-        </figcaption>
-      </figure>
+      {variant === "desktop" && (
+        <figure>
+          <figcaption>
+            <Paragraph margin={"0rem"}>{text}</Paragraph>
+          </figcaption>
+        </figure>
+      )}
     </ButtonContainer>
   );
 };
+
 export default DesktopButton;
