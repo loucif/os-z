@@ -4,6 +4,7 @@ import { useTaskbarConfig } from "./Taskbar.config";
 import SlidingModal from "./SlidingModal";
 import { useEffect, useRef, useState } from "react";
 import Statusbar from "./Statusbar";
+import AppCenter from "./AppCenter/AppCenter";
 
 const Taskbar = () => {
   const containerRef = useRef(null);
@@ -12,7 +13,7 @@ const Taskbar = () => {
   useEffect(() => {
     if (containerRef.current) {
       const offsets = containerRef.current.getBoundingClientRect();
-      console.log(offsets.right)
+      console.log(offsets.right);
       setRightCoordinate(offsets.right);
     }
   }, []);
@@ -37,7 +38,9 @@ const Taskbar = () => {
         variant={"taskbar"}
         width={"600px"}
         position={{ bottom: "0", right: `${rightCoordinate - 300}px` }}
-      />
+      >
+        <AppCenter />
+      </SlidingModal>
     </FooterContainer>
   );
 };

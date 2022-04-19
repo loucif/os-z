@@ -4,16 +4,16 @@ export const useTaskbarConfig = () => {
   const { changeTheme, toggleSearchModal } = useActions();
   const { theme } = useTypedSelector((state) => state.ui);
   const themeToggleIcon =
-    theme === "dark" ? "/light_mode.png" : "/dark_mode.png";
+    theme === "dark" ? "/icons/IcSwitchModeDark.svg" : "/icons/IcSwitchModeLight.svg";
   const searchIcon =
-    theme === "dark" ? "/search-dark.svg" : "/search-light.svg";
+    theme === "dark" ? "/icons/IcSearchDark.svg" : "/icons/IcSearchLight.svg";
   const TaskbarButtons = [
     {
       id: 1,
-      src: "/computer.png",
+      src: "/icons/IcStart.svg",
       size: { width: 30, height: 30 },
       action: () => toggleSearchModal(),
-      alt: "Windows icon",
+      alt: "Start icon",
     },
     {
       id: 2,

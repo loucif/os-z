@@ -13,7 +13,7 @@ const Desktop = () => {
       <DesktopButton
         variant={"desktop"}
         onClick={() => changeTheme()}
-        iconSrc={"/computer.png"}
+        iconSrc={"/icons/IcComputer.svg"}
         iconSize={{ width: 40, height: 40 }}
         text={"This PC"}
       />
