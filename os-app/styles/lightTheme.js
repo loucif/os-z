@@ -6,6 +6,10 @@ export const lightTheme = {
   fontSize: { large: "16px", medium: "14px", small: "12px" },
   taskbarBackground: "rgba(255,255,255,.658)",
   taskbarIconHover: "rgba(243,243,243,.747)",
+<<<<<<< HEAD
+=======
+  appsHoverBg: 'rgba(3,21,41,.562)',
+>>>>>>> main
   media: {
     phone: "(max-width: 500px)",
     tablet: "(max-width: 768px)",

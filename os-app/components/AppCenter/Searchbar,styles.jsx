@@ -43,6 +43,10 @@ export const SearchbarInput = styled.input`
   background: rgb(24, 34, 61);
   border: 0;
   border-bottom: 2px #4489aa solid;
+<<<<<<< HEAD
+=======
+  box-sizing: border-box;
+>>>>>>> main
   color: ${(props) => props.theme.primary.text};
   border-radius: ${(props) => props.theme.borderRadius};
   outline: 0;
@@ -55,4 +59,8 @@ export const SearchbarInput = styled.input`
     font-size: ${(props) => props.theme.fontSize.small};
     color: ${(props) => props.theme.primary.text};
   }
+<<<<<<< HEAD
 `;
+=======
+`;
+>>>>>>> main

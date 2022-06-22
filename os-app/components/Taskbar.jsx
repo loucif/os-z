@@ -1,7 +1,11 @@
 import DesktopButton from "./DesktopButton";
 import { FooterContainer, ButtonListContainer } from "./Taskbar.styles";
 import { useTaskbarConfig } from "./Taskbar.config";
+<<<<<<< HEAD
 import SlidingModal from "./SlidingModal";
+=======
+import StartModal from "./StartModal";
+>>>>>>> main
 import { useEffect, useRef, useState } from "react";
 import Statusbar from "./Statusbar";
 import AppCenter from "./AppCenter/AppCenter";
@@ -34,13 +38,21 @@ const Taskbar = () => {
         })}
       </ButtonListContainer>
       <Statusbar />
+<<<<<<< HEAD
       <SlidingModal
+=======
+      <StartModal
+>>>>>>> main
         variant={"taskbar"}
         width={"600px"}
         position={{ bottom: "0", right: `${rightCoordinate - 300}px` }}
       >
         <AppCenter />
+<<<<<<< HEAD
       </SlidingModal>
+=======
+      </StartModal>
+>>>>>>> main
     </FooterContainer>
   );
 };
