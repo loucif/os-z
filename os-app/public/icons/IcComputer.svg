@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512">
+    <path xmlns="http://www.w3.org/2000/svg" d="M257 295h120v70H257zm0 0" fill="#3e5959" data-original="#3e5959" />
+    <path xmlns="http://www.w3.org/2000/svg" d="M317 295h60v70h-60zm0 0" fill="#293939" data-original="#293939" />
+    <path xmlns="http://www.w3.org/2000/svg"
+        d="M165 390H15c-8.285 0-15-6.715-15-15V45c0-8.285 6.715-15 15-15h150c8.285 0 15 6.715 15 15v330c0 8.285-6.715 15-15 15zm0 0"
+        fill="#3e5959" data-original="#3e5959" />
+    <path xmlns="http://www.w3.org/2000/svg" d="M180 45v330c0 8.281-6.719 15-15 15H90V30h75c8.281 0 15 6.719 15 15zm0 0"
+        fill="#293939" data-original="#293939" />
+    <path xmlns="http://www.w3.org/2000/svg" d="M0 105h180v60H0zm0 0" fill="#547983" data-original="#547983" />
+    <path xmlns="http://www.w3.org/2000/svg" d="M90 105h90v60H90zm0 0" fill="#3e5959" data-original="#3e5959" />
+    <path xmlns="http://www.w3.org/2000/svg"
+        d="M105 348c0 8.285-6.715 15-15 15s-15-6.715-15-15 6.715-15 15-15 15 6.715 15 15zm0 0" fill="#81e885"
+        data-original="#81e885" />
+    <path xmlns="http://www.w3.org/2000/svg" d="M105 348c0 8.281-6.719 15-15 15v-30c8.281 0 15 6.719 15 15zm0 0"
+        fill="#5dc983" data-original="#5dc983" />
+    <path xmlns="http://www.w3.org/2000/svg"
+        d="M482 300H152c-16.543 0-30-13.457-30-30V30c0-16.543 13.457-30 30-30h330c16.543 0 30 13.457 30 30v240c0 16.543-13.457 30-30 30zm0 0"
+        fill="#547983" data-original="#547983" />
+    <path xmlns="http://www.w3.org/2000/svg"
+        d="M512 30v240c0 16.54-13.46 30-30 30H317V0h165c16.54 0 30 13.46 30 30zm0 0" fill="#3e5959"
+        data-original="#3e5959" />
+    <path xmlns="http://www.w3.org/2000/svg" d="M152 30h330v240H152zm0 0" fill="#19c0ef" data-original="#19c0ef" />
+    <path xmlns="http://www.w3.org/2000/svg" d="M317 30h165v240H317zm0 0" fill="#159be1" data-original="#159be1" />
+    <path xmlns="http://www.w3.org/2000/svg"
+        d="M407 390H227c-8.285 0-15-6.715-15-15s6.715-15 15-15h180c8.285 0 15 6.715 15 15s-6.715 15-15 15zm0 0"
+        fill="#547983" data-original="#547983" />
+    <path xmlns="http://www.w3.org/2000/svg" d="M422 375c0 8.281-6.719 15-15 15h-90v-30h90c8.281 0 15 6.719 15 15zm0 0"
+        fill="#3e5959" data-original="#3e5959" /></svg>
